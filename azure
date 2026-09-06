@@ -1,0 +1,33 @@
+Microsoft Azure does not have a single proprietary programming language. Instead, it is a cloud computing platform that provides robust support for a wide variety of industry-standard programming languages, developer tools, and software development kits (SDKs). [1, 2]  
+🏆 Core Supported Languages 
+Microsoft officially prioritizes four main languages (often called "P0" languages) for its services, ensuring they receive instant SDK updates and deep ecosystem integration. However, several other modern languages are fully supported. 
+
+• .NET (C# / F#): As Microsoft's flagship ecosystem, C# offers the most seamless, native integration with Azure services, microservices, and serverless compute. 
+• Python: Extensively used for cloud application development, machine learning models, and data pipelines (especially with PySpark in Azure Databricks). 
+• JavaScript / TypeScript: Supported natively through Node.js for backend services, web applications, and serverless logic. 
+• Java: Heavily optimized for enterprise application migration and cloud-native microservices. 
+• Go & Rust: Supported for high-performance systems, containerized apps via Azure Kubernetes Service (AKS), and specialized serverless worker models. 
+• C++: Primarily utilized for low-level performance optimization and Internet of Things (IoT) edge device configurations. [7]  
+
+🛠️ Scripting & Infrastructure Languages 
+If you are managing Azure resources rather than building applications, you will use dedicated automation and scripting tools: 
+
+• PowerShell: Used for automating tasks and managing Azure infrastructure through code. 
+• Azure CLI: A command-line tool optimized for querying and managing resources via standard bash or shell scripts. 
+• Bicep / Terraform: Infrastructure-as-Code (IaC) declarative languages used specifically to provision and deploy Azure environments safely. [7, 8]  
+
+🔌 What if your preferred language isn't listed? 
+This means that even if a language does not have an official Microsoft SDK, it can still interact with Azure using basic HTTP web requests. 
+
+AI responses may include mistakes.
+
+[1] https://learn.microsoft.com/en-us/azure/developer/intro/azure-developer-overview
+[2] https://en.wikipedia.org/wiki/Microsoft_Azure
+[3] https://www.youtube.com/watch?v=tXdpDIxd3eg
+[4] https://rootstack.com/en/blog/azure-software-development-language
+[5] https://azure.microsoft.com/en-in/products/functions
+[6] https://www.youtube.com/watch?v=Az6qshar9Pc
+[7] https://learn.microsoft.com/en-sg/answers/questions/5894198/what-computer-languages-are-required-if-any-in-azu
+[8] https://learn.microsoft.com/en-us/azure/azure-functions/supported-languages
+
+
