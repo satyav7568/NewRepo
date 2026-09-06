@@ -1,0 +1,2 @@
+curl -s -H "Authorization: Bearer $N8N_API_KEY" http://old-instance:5678/rest/executions?active=true | jq '.data | length'
+
